@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans&display=swap');
+
+body {
+    background: #F5F5F5;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+.section {
+    display: flex;
+    gap: 10px; 
+    align-items: center;
+    justify-content: center;
+    /* width: 100vh; */
+    height: 90vh;
+}
+
+img {
+    width: 260px;
+    height: 260px;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    padding-right: 10rem;
+}
+
+.main-info1 {
+    width: 458px;
+    height: 600px;
+    background: #ffffff;
+    border-radius: 35px;
+    /* width: fit-content; */
+   padding-top: 4rem;
+   padding-left: 2rem;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
+/* .main-info1 div {
+    pad: 3rem;
+} */
+.main-info2 {
+    width: 955px;
+    height: 650px;
+    background: #ffffff;
+    border-radius: 35px;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    justify-content: center;
+    padding-left: 2.5rem;
+}
+
+.main-info2:hover {
+    border: 2px solid rgb(41, 35, 35);
+}
+
+ .main-info1 p {
+    font-size: 32px;
+    /* font-weight: 600; */
+
+    font-style: normal;
+
+    margin: 7px;
+}
+.main-info1 .pro div {
+    margin-bottom: 2.5rem;
+}
+.main-info1 i {
+    width: 26px;
+    height: 20px;
+    padding-right: 20px;
+
+}
+.main-info2 i {
+    width: 26px;
+    height: 20px;
+    padding-right: 2px;
+
+}
+
+.main-info1 .p-contact .alt {
+    padding-bottom: 2rem;
+}
+
+.part-2 {
+    padding-left: 1rem;
+}
+.note {
+    padding-left: 33px;
+}
